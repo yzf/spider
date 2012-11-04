@@ -12,3 +12,5 @@ for id in $(seq $begin_product $end_product)
 do
     php -f operate.php $id &
 done
+wait 
+echo "------------------ok-----------------"

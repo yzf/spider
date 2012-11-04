@@ -17,3 +17,5 @@ do
     echo "You can close the terminal to close it..."
     php -f spider.php $i &
 done
+wait
+echo "-----------------------ok-------------------------"

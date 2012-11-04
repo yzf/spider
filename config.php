@@ -28,7 +28,4 @@ define("PREG_PRO_BIT", "/[0-9|\-]* ?[Bb][Ii][Tt].*?<\/li>/");
 define("PREG_PRO_GRAMEM", "/[Gg][Rr][Aa][Pp][Hh][Ii][Cc][Ss] [Rr][Aa][Mm].*?<\/b>.*?<\/li>/");
 
 //默认值 爬取不到时使用
-define("DEFAULT_BIT", "None");
-define("DEFAULT_GM", "None");
-define("DEFAULT_CLOCK", "None");
-define("DEFAULT_MEMORY", "None");
+define("NOTHING", "None");
